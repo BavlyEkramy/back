@@ -19,7 +19,7 @@ ENV PINECONE_API_KEY="pcsk_RT6wY_N5JbiUjPaTaLDaxXepgh7uPXpKj7wmiJVAjARHPc2HzDodS
 ENV GENAI_API_KEY="AIzaSyC7qMkLOLrCpaV6-XrdZWcvmOs4ugF3xFc"
 
 # اعرض البورت الذي سيعمل عليه التطبيق
-EXPOSE 8080
+EXPOSE 8000
 
 # الأمر الافتراضي لتشغيل التطبيق باستخدام uvicorn
-CMD ["uvicorn", "server:app",  "--port", "8080"]
+CMD ["uvicorn", "server:app",  "--port", "8000"]

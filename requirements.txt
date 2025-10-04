@@ -2,7 +2,7 @@ fastapi
 pydantic
 pymongo
 sentence-transformers
-pinecone-client
+pinecone
 certifi
 uvicorn[standard]
 google-generativeai
